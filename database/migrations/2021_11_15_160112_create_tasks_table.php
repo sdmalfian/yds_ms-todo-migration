@@ -17,7 +17,7 @@ class CreateTasksTable extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->date_timestamp_get('reminder_datetime');
+            // reminder_datetime will be added later
             $table->date('due_date');
             $table->text('attachment_url');
             $table->text('note');
