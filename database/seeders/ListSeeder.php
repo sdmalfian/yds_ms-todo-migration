@@ -16,7 +16,7 @@ class ListSeeder extends Seeder
     {
         DB::table('lists')->insert([
             [
-//
+                //
             ],
         ]);
     }
